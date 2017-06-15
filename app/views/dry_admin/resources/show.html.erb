@@ -1,0 +1,11 @@
+<h3 class="margin-top-0"><%= "#{@model.name} ##{@record.id}" %></h3>
+<%= link_to "&larr; Back to #{@model.name.pluralize(2)} list".html_safe, {:action => 'index'}, :class=>"btn btn-default" %>
+<%= link_to "Edit #{@model.name}", {:action => 'edit'}, :class=>"btn btn-info" %>
+<%= link_to "Delete #{@model.name}", {action: 'destroy'}, :method => :delete, :class=> 'btn btn-danger', :data => {:confirm => "Are you sure?"} %>
+<hr/>
+<dl class="dl-horizontal">
+  <% @record.attributes.each do |name, value| %>
+  <dt><%= name.upcase.gsub("_", " ") %></dt>
+  <dd><%= value %></dd>
+  <% end %>
+</dl>

@@ -1,0 +1,7 @@
+<div class="list-group">
+	<% @models.each do |m| %>
+		<%= link_to({controller: 'resources', action: 'index', model: m.name.pluralize(2).split(/(?=[A-Z])/).join("_").downcase}, :class => "list-group-item") do %>
+      <%= m.name.pluralize(2) %> <span class="badge"><%= m.count %></span>
+    <% end %>
+	<% end %>
+</div>

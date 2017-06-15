@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= Rails.application.class.parent_name %> | DRYAdmin</title>
+  <%= stylesheet_link_tag    "dry_admin/application", media: "all" %>
+  <%= javascript_include_tag "dry_admin/application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">
+	      	<%= Rails.application.class.parent_name %> 
+	      	<small>DRYAdmin</small>
+	      </a>
+	    </div>
+	  </div><!-- /.container-fluid -->
+	</nav>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12 col-sm-3 col-md-2 col-lg-1">
+				<%= render :partial => 'dry_admin/shared/models' %>
+			</div>
+			<div class="col-xs-12 col-sm-9 col-md-10 col-lg-11">
+				<%= render :partial => 'dry_admin/shared/alerts' %>
+				<%= yield %>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
