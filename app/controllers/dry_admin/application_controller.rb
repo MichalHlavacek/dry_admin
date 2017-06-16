@@ -5,7 +5,7 @@ module DryAdmin
 
 	def menu
 		Rails.application.eager_load!
-		@models = ActiveRecord::Base.descendants.reject {|m| m.name == "ApplicationRecord" or m.name == "ActiveRecord::SchemaMigration"}
+		@models = ActiveRecord::Base.descendants.reject {|m| m.name == "ApplicationRecord" or m.name == "ActiveRecord::SchemaMigration" or m.name == "DryAdmin::ApplicationRecord"}
 	end
   end
 end
