@@ -29,9 +29,9 @@ $ gem install dry_admin
 DRYAdmin has currently three dependencies (apart from Rails itself). Bootstrap to make it look nice, Will Paginate to make Pagination work easily.
 
 ```ruby
-  "bootstrap-sass", "~> 3.3.6"
-  "will_paginate", "~> 3.1.0"
-  "will_paginate-bootstrap"
+  "bootstrap-sass", "~> 3.3"
+  "will_paginate", "~> 3.1"
+  "will_paginate-bootstrap", "~> 1"
 ```
 
 ## Usage
