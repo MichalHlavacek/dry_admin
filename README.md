@@ -43,6 +43,10 @@ You can change mounting point to anything you like of course.
 If you are using this gem and like it, get in touch with me - [@HlavacekMichal](https://twitter.com/hlavacekmichal). 
 And if you feel very generous and want to support further development, you can <a href='https://ko-fi.com/A0482223' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi2.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
+## Screenshot
+
+![Screenshot](https://github.com/MichalHlavacek/dry_admin/raw/master/Screen%20Shot%202017-06-16%20at%2007.26.11.png "Screenshot")
+
 ## Contributing
 If you want to add, customize, remove, change or polish anything, please open an issue and we can discuss that, and I'll most likely fix that until version 0.2.
 For those who will be reading the source code, I apologize in advance. I made this in one sunny afternoon, and haven't find a time to properly refactor and beautify the code yet.
