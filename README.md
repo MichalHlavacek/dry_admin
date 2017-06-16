@@ -47,6 +47,14 @@ And if you feel very generous and want to support further development, you can <
 
 ![Screenshot](https://github.com/MichalHlavacek/dry_admin/raw/master/Screen%20Shot%202017-06-16%20at%2007.26.11.png "Screenshot")
 
+## DEMO
+
+I have put together a quick demo - three models with references, you can fiddle with it as you like. 
+
+https://dryadmin-demo.herokuapp.com/admin
+
+Please don't create any records with offensive content. Thank you.
+
 ## Contributing
 If you want to add, customize, remove, change or polish anything, please open an issue and we can discuss that, and I'll most likely fix that until version 0.2.
 For those who will be reading the source code, I apologize in advance. I made this in one sunny afternoon, and haven't find a time to properly refactor and beautify the code yet.
