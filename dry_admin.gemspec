@@ -17,10 +17,10 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{app,config,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  s.add_dependency "rails", ">= 4.0.0"
-  s.add_dependency "bootstrap-sass", "~> 3.3.6"
-  s.add_dependency "will_paginate", "~> 3.1.0"
-  s.add_dependency "will_paginate-bootstrap"
+  s.add_dependency "rails", ">= 4", "< 6"
+  s.add_dependency "bootstrap-sass", "~> 3.3"
+  s.add_dependency "will_paginate", "~> 3.1"
+  s.add_dependency "will_paginate-bootstrap", "~> 1"
 
-  s.add_development_dependency "sqlite3"
+  s.add_development_dependency "sqlite3", "~> 0"
 end
