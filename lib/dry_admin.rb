@@ -1,5 +1,7 @@
 require "dry_admin/engine"
 
 module DryAdmin
-  # Your code goes here...
+  require 'bootstrap-sass'
+  require 'will_paginate'
+  require 'will_paginate-bootstrap'
 end
