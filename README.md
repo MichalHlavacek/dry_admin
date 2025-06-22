@@ -1,4 +1,9 @@
 # DRYAdmin
+
+⚠️ **DEPRECATED: This project is no longer maintained. Use at your own risk.**  
+Feel free to browse the code or fork it, but there will be no further updates or support.
+
+---
 I hate creating admin areas from scratch in every Rails app I make. Thus, one sunny afternoon I've sat down and created DRYAdmin - mountable admin engine that "just works" with whatever models you have.*
 
 <sup>(*hopefully)</sup>
@@ -8,6 +13,13 @@ Don't Repeat Yourself - ever again.
 **DISCLAIMER:** IT'S VERSION 0.1., WHICH MEANS THAT IT PROBABLY SHOULDN'T BE USED IN PRODUCTION ENVIRONMENT YET.
 
 Ok, you have been warned.
+
+## ⚠️ DEPRECATION NOTICE
+
+This project is no longer actively maintained. You’re welcome to explore, fork, or use the code, but be aware it may be outdated or incompatible with modern versions of Rails or dependencies.  
+For alternatives, consider using [RailsAdmin](https://github.com/sferik/rails_admin) or [ActiveAdmin](https://github.com/activeadmin/activeadmin).
+
+---
 
 ## Installation
 Add this line to your application's Gemfile:
